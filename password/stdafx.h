@@ -5,6 +5,7 @@
 
 #pragma once
 
+#define _AFX_NO_MFC_CONTROLS_IN_DIALOGS
 #ifndef VC_EXTRALEAN
 #define VC_EXTRALEAN            // 从 Windows 头中排除极少使用的资料
 #endif

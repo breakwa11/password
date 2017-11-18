@@ -6,7 +6,7 @@
 
 
 // CpasswordDlg 对话框
-class CpasswordDlg : public CDialogEx
+class CpasswordDlg : public CDialog
 {
 // 构造
 public:

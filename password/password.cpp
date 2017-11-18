@@ -54,10 +54,10 @@ BOOL CpasswordApp::InitInstance()
 
 	// 创建 shell 管理器，以防对话框包含
 	// 任何 shell 树视图控件或 shell 列表视图控件。
-	CShellManager *pShellManager = new CShellManager;
+	//CShellManager *pShellManager = new CShellManager;
 
 	// 激活“Windows Native”视觉管理器，以便在 MFC 控件中启用主题
-	CMFCVisualManager::SetDefaultManager(RUNTIME_CLASS(CMFCVisualManagerWindows));
+	//CMFCVisualManager::SetDefaultManager(RUNTIME_CLASS(CMFCVisualManagerWindows));
 
 	// 标准初始化
 	// 如果未使用这些功能并希望减小
@@ -88,10 +88,10 @@ BOOL CpasswordApp::InitInstance()
 	}
 
 	// 删除上面创建的 shell 管理器。
-	if (pShellManager != NULL)
-	{
-		delete pShellManager;
-	}
+	//if (pShellManager != NULL)
+	//{
+	//	delete pShellManager;
+	//}
 
 	// 由于对话框已关闭，所以将返回 FALSE 以便退出应用程序，
 	//  而不是启动应用程序的消息泵。
